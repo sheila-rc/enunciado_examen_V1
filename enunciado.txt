@@ -1,0 +1,23 @@
+Se puede consultar documentación y el manual de referencia pero NO SE PUEDE USAR IA
+
+Debes crear un archivo llamado Dockerfile que cumpla con los siguientes requisitos:
+
+    Utilizar la imagen base python:3.9-slim.
+
+    Definir el directorio de trabajo dentro del contenedor como /app.
+
+    Copiar el archivo de requerimientos e instalarlos usando pip.
+
+    Copiar el código fuente (app.py).
+
+    Definir el comando de arranque para ejecutar la aplicación [python].
+
+Crea un archivo docker-compose.yml para levantar el servicio. Requisitos:
+
+    El servicio debe llamarse web-app.
+
+    Debe construir la imagen a partir del Dockerfile actual.
+
+    Darle el nombre al contenedor: contenedor_examen
+
+    Mapeo de puertos: La aplicación corre internamente en el puerto 5000, y debe ser accesible desde tu navegador en el puerto 5000
